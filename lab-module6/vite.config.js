@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://jwangr.github.io/module10/lab-module6"
+  base: 'module10'
 })
