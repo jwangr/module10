@@ -1,3 +1,3 @@
-Find the deployed website at:
+Find the docker image on docker hub:
 
-[LAB MODULE 6 React App](https://jwangr.github.io/module10/)
+jwangr/mongodb-express:latest
