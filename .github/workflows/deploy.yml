@@ -23,11 +23,11 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: module10/lab-module6
+        working-directory: /lab-module6
         run: npm ci
 
       - name: Build Vite site
-        working-directory: module10/lab-module6
+        working-directory: /lab-module6
         run: npm run build
 
       # ✅ Deploy the built site from the dist folder
@@ -35,4 +35,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: module10/lab-module6/dist
+          publish_dir: /lab-module6/dist
